@@ -8,8 +8,13 @@
 
 ```
 ex01/
-  hello.c    # Hello World 程序
+  hello.c    # Hello World + 键盘输入回显程序
 ```
+
+### 功能说明
+
+- 输出 "Hello, World!"
+- 使用 `fgets` 函数接收键盘输入并回显
 
 ### 编译运行
 
