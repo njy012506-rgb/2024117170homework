@@ -32,9 +32,27 @@ gcc ex01/hello.c -o ex01/hello -fexec-charset=UTF-8
 
 忽略编译产物：`*.exe`、`hello`、`*.o`
 
+## 实验 lab01 - Arduino IDE 安装与 ESP32 环境配置
+
+### 文件结构
+
+```
+lab01/
+  lab01.ino    # ESP32 LED 闪烁 + 串口输出测试程序
+  *.png, *.jpg # 实验结果截图
+```
+
+### 功能说明
+
+- 配置 Arduino IDE 和 ESP32 开发环境
+- 编写 LED 闪烁测试程序
+- 验证串口监视器输出 "Hello ESP32!"
+- 观察板载 LED 每秒闪烁一次
+
 ### 实验路线
 
 - [x] ex01 - C 语言 Hello World
+- [x] lab01 - Arduino IDE 安装与 ESP32 环境配置
 - [ ] ex02 - LED 闪烁控制（即将更新）
 - [ ] ex03 - LED 呼吸灯
 - [ ] ex04 - 触摸传感器
